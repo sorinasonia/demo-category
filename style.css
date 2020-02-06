@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font:  'Raleway', sans-serif;
+}
+
+header {
+    background-color: #eee;
+    text-align: center;
+    height: 24vh;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 50px 5px 1px 5px;
+}
+
+header h1 {
+    font-size: 3em;
+    padding: 10px 0;
+}
+header ul li a {
+     text-decoration: none;
+     color: #000;
+     transition: all 0.5s ease-in-out 0s;
+ }
+
+header ul li a:hover {
+     color: #34562a;
+     border-bottom: 0.8px solid #34562a;
+ }
+
+ a.active {
+     padding:5px  10px;
+     background-color: #34562a;
+     color: #fff !important ;
+     font-weight: bolder;
+     border-radius: 50px;
+ }
+
+ #Product {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     height: 100vh;
+     width: 70vw;
+     margin: auto;
+grid-column-gap: 15px;
+grid-row-gap: 20px;
+padding: 30px 0 0 30px ;
+ }
+
+ .item {
+     background-color: grey;
+ }
+
+ footer{
+     text-align: center;
+     height: 15vh;
+     padding-top: 50px;
+ }
